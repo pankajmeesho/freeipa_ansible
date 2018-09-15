@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  become_method: sudo
+  user: ubuntu
+
+  vars:
+    ansible_ssh_private_key_file: "~/.ssh/m-key-pair-singapore.pem"
+
+  roles:
+    - ipa_server
