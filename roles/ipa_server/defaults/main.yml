@@ -5,5 +5,5 @@ server_hostname: ipa.meesho.com
 domain: meesho.com
 realm: MEESHO.COM
 principal_user: admin
-principal_user_password: Meesho@405586
-directory_manager_password: Meesho@405586
+principal_user_password: Mee***@405***
+directory_manager_password: Mee***@405***
