@@ -5,9 +5,9 @@ steps to run configure feeeIPA server
 
 i) first we need to configure hostname for server and client
 
-in my case hostname of sevrer: ipa.meesho.com and client: ipa-client
+in my case hostname of sevrer: ipa.xyz.com and client: ipa-client
 
-ii) configure route 53 entry for ipa.meesho.com
+ii) configure route 53 entry for ipa.xyz.com
 
 iii) make changes in the file roles/ipa_server/defaults/main.yml
 
@@ -17,7 +17,7 @@ ansible-playbook ipa-server.yml
 
 v) after successfull installation, open the url in browser
 
-ipa.meesho.com (please mentioned your dns entry)
+ipa.xyz.com (please mentioned your dns entry)
 
 steps to run configure feeeIPA client
 
@@ -29,7 +29,7 @@ iii) run below command
 
 ansible-playbook ipa-client.yml
 
-iv) open ipa.meesho.com and check if client has been reflecting in host section.
+iv) open ipa.xyz.com and check if client has been reflecting in host section.
 
 v) now try to login from your local to ipa-client machine using admin credentials which we configured in 
 
